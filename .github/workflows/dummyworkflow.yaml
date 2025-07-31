@@ -1,7 +1,7 @@
 name: Node.js CI
 # testing workflow
 
-on: [push, pull_request]
+on: 
 jobs:
   test:
     runs-on: ubuntu-latest
